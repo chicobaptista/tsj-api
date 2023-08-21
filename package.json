@@ -1,0 +1,22 @@
+{
+  "name": "tsj-api",
+  "version": "0.0.1",
+  "description": "A system that implements the Cortex Theme System Journal",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Francisco Llamosas Baptista",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "commitizen": "^4.3.0",
+    "husky": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
